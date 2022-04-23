@@ -1,0 +1,51 @@
+.menu {
+    height: 100vh;
+    background-color: #0a2750;
+    background-image: url('../images/background_menu.svg');
+    display: flex;
+    justify-content: center; 
+}
+
+.menu__flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 100px; 
+    row-gap: 20px;
+    max-width: 780px;
+    height: fit-content;
+}
+
+.menu__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    color: #FFFFFF;
+}
+
+.menu__subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.menu__cards {
+
+}
+
+.menu__cards-wrapper {
+    
+}
+
+.menu__card {
+
+}

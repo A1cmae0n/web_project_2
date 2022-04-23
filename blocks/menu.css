@@ -1,5 +1,5 @@
 .menu {
-    height: 100vh;
+    /* height: 100vh; */
     width: 100vw;
     background-color: #0a2750;
     background-image: url('../images/background_menu.svg');
@@ -7,7 +7,6 @@
     flex-direction: column;
     align-items: center;
     row-gap: 100px;
-    margin-bottom: 100px;
     position: relative;
 }
 
@@ -16,8 +15,6 @@
     flex-direction: column;
     margin-top: 100px;
     align-items: center;
-    /* position: relative;
-    top: 100px;  */
     row-gap: 24px;
     max-width: 780px;
     height: fit-content;
@@ -48,6 +45,7 @@
     display: flex;
     flex-direction: column;
     row-gap: 100px;
+    margin-bottom: 100px;
 }
 
 .menu__cards-wrapper {

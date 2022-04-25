@@ -1,14 +1,7 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.12,
-* Autoprefixer: v10.4.4
-* Browsers: last 4 version
-*/
-
 .footer {
     width: 100vw;
-    background: -webkit-gradient(linear, left top, left bottom, from(#0A2850), to(#071931));
     background: -o-linear-gradient(top, #0A2850 0%, #071931 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#0A2850), to(#071931));
     background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
 }
 
@@ -25,6 +18,8 @@
 }
 
 .footer__logo {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
 }
 

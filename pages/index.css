@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+
 @import url('../blocks/normalize.css');
 @import url('../blocks/header.css');
 @import url('../blocks/menu.css');
@@ -6,13 +13,13 @@
 @import url('../blocks/about.css');
 @import url('../blocks/footer.css');
 
-* {
-    outline: 1px dotted red;
-}
-
 body {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .page {
     min-width: 1100px;
@@ -21,10 +28,3 @@ body {
     font-size: 16px;
     line-height: 20px;
 }
-
-
-
-
-/* font-family: 'Inter', sans-serif; */
-/* font-family: 'Noto Serif', Times New Roman, serif; */
-

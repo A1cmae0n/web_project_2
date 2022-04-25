@@ -97,7 +97,7 @@ fieldset {
     color: #838383;
 }
 
-.reservation__form-input::placeholder {
+.form__input::placeholder {
     padding-left: 10px;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
@@ -161,7 +161,7 @@ fieldset {
 }
 
 
-.reservation__form-input {
+.reservation__button {
     border: 4px;
     height: 60px;
     margin: 32px 0;

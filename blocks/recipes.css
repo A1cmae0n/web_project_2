@@ -75,6 +75,10 @@
     margin-bottom: 215px;
 }
 
+.ytplayer {
+    border: 0;
+}
+
 .recipes__card {
     display: -webkit-box;
     display: -ms-flexbox;

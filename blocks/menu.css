@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+
 .menu {
     width: 100vw;
     background-color: #0a2750;
@@ -22,34 +29,14 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    row-gap: 100px;
     position: relative;
-    margin: unset;
-    padding: unset;
-}
-
-.menu__flex-wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-top: 100px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    row-gap: 24px;
-    max-width: 780px;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
 }
 
 .menu__title {
     margin: unset;
     padding: unset;
+    margin-top: 100px;
+    margin-bottom: 24px;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -61,6 +48,7 @@
 .menu__subtitle {
     margin: unset;
     padding: unset;
+    margin-bottom: 100px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -99,6 +87,11 @@
        -moz-column-gap: 100px;
             column-gap: 100px;
 }
+
+.menu__list {
+    padding: unset;
+}
+
 
 .menu__cards-last-of-type-wrapper {
     display: -webkit-box;

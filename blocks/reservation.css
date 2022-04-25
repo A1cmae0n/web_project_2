@@ -114,7 +114,7 @@ fieldset {
     color: #838383;
 }
 
-#datetime {
+#date-time {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

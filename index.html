@@ -71,51 +71,55 @@
                 <img class='header__image' src='./images/inside_coffee_shop.png' alt='inside coffee shop'>
             </div>
         </header>
-        <menu class='menu'>
-            <div class='menu__flex-wrapper'>
-                <h2 class='menu__title'>Menu</h2>
-                <p class='menu__subtitle'>
-                    <span class='menu__subtitle-break'>We brew coffee from locally roasted, Fairtrade certified beans and use </span>
-                    <span class='menu__subtitle-break'>biodegradable cups. All teas from our collection are $2/cup.</span>
-                </p>
-            </div>
+        <section class='menu'>
+            <h2 class='menu__title'>Menu</h2>
+            <p class='menu__subtitle'>
+                <span class='menu__subtitle-break'>We brew coffee from locally roasted, Fairtrade certified beans and use </span>
+                <span class='menu__subtitle-break'>biodegradable cups. All teas from our collection are $2/cup.</span>
+            </p>
             <div class='menu__cards'>
                 <div class='menu__cards-wrapper'>
-                    <ul class='menu__card-wrapper'>
-                        <h3 class='menu__card-header'>Filter</h3>                
-                        <li class='menu__card'>
-                            <p class='menu__card-paragraph'>Regular (12 oz) <span class='menu__card-underscore'></span>$1</p>
-                            <p class='menu__card-paragraph'>Large (16 oz) <span class='menu__card-underscore'></span>$1.25</p>
-                            <p class='menu__card-paragraph'>XL (20 oz) <span class='menu__card-underscore'></span>$1.5</p>
-                            <p class='menu__card-paragraph'>Party-size (24 oz, decaf) <span class='menu__card-underscore'></span>$1.75</p>
-                            <p class='menu__card-paragraph'>Iced Coffee (16 oz) <span class='menu__card-underscore'></span>$1.25</p>
-                        </li>
-                    </ul>
-                    <ul class='menu__card-wrapper'>
-                        <li class='menu__card'>
-                            <h3 class='menu__card-header'>Espresso</h3>
-                            <p class='menu__card-paragraph'>Macchiato <span class='menu__card-underscore'></span>$2.25</p>
-                            <p class='menu__card-paragraph'>Cortado <span class='menu__card-underscore'></span>$2.5</p>
-                            <p class='menu__card-paragraph'>Mocha <span class='menu__card-underscore'></span>$3</p>
-                            <p class='menu__card-paragraph'>Sunrise in the Bay Area (decaf) <span class='menu__card-underscore'></span>$10</p>
-                        </li>  
-                    </ul>
+                    <div class='menu__card-wrapper'>
+                        <h3 class='menu__card-header'>Filter</h3>  
+                        <ul class="menu__list">
+                            <li class='menu__card'>
+                                <p class='menu__card-paragraph'>Regular (12 oz) <span class='menu__card-underscore'></span>$1</p>
+                                <p class='menu__card-paragraph'>Large (16 oz) <span class='menu__card-underscore'></span>$1.25</p>
+                                <p class='menu__card-paragraph'>XL (20 oz) <span class='menu__card-underscore'></span>$1.5</p>
+                                <p class='menu__card-paragraph'>Party-size (24 oz, decaf) <span class='menu__card-underscore'></span>$1.75</p>
+                                <p class='menu__card-paragraph'>Iced Coffee (16 oz) <span class='menu__card-underscore'></span>$1.25</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class='menu__card-wrapper'>
+                        <h3 class='menu__card-header'>Espresso</h3>
+                        <ul class="menu__list">
+                            <li class='menu__card'>
+                                <p class='menu__card-paragraph'>Macchiato <span class='menu__card-underscore'></span>$2.25</p>
+                                <p class='menu__card-paragraph'>Cortado <span class='menu__card-underscore'></span>$2.5</p>
+                                <p class='menu__card-paragraph'>Mocha <span class='menu__card-underscore'></span>$3</p>
+                                <p class='menu__card-paragraph'>Sunrise in the Bay Area (decaf) <span class='menu__card-underscore'></span>$10</p>
+                            </li>  
+                        </ul>
+                    </div>
                 </div>             
                 <div class='menu__cards-last-of-type-wrapper'>
-                    <ul class='menu__card-wrapper'>
+                    <div class='menu__card-wrapper'>
                         <h3 class='menu__card-header'>Baked Goods</h3>
-                        <li class='menu__card'>
-                            <p class='menu__card-paragraph'>Almond Croissant <span class='menu__card-underscore'></span>$2</p>
-                            <p class='menu__card-paragraph'>Banana Bread <span class='menu__card-underscore'></span>$1.75</p>
-                            <p class='menu__card-paragraph'>Key Lime Pie <span class='menu__card-underscore'></span>$3</p>
-                            <p class='menu__card-paragraph'>Blue Velvet Cake <span class='menu__card-underscore'></span>$3.75</p>
-                            <p class='menu__card-paragraph'>Web Cookie <span class='menu__card-underscore'></span>$2</p>
-                            <p class='menu__card-paragraph'>Fresh Bug'uette <span class='menu__card-underscore'></span>$0.25</p>
-                        </li>
-                    </ul>
+                        <ul class="menu__list">
+                            <li class='menu__card'>
+                                <p class='menu__card-paragraph'>Almond Croissant <span class='menu__card-underscore'></span>$2</p>
+                                <p class='menu__card-paragraph'>Banana Bread <span class='menu__card-underscore'></span>$1.75</p>
+                                <p class='menu__card-paragraph'>Key Lime Pie <span class='menu__card-underscore'></span>$3</p>
+                                <p class='menu__card-paragraph'>Blue Velvet Cake <span class='menu__card-underscore'></span>$3.75</p>
+                                <p class='menu__card-paragraph'>Web Cookie <span class='menu__card-underscore'></span>$2</p>
+                                <p class='menu__card-paragraph'>Fresh Bug'uette <span class='menu__card-underscore'></span>$0.25</p>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            </menu>
+        </section>
         <section class='recipes'>
             <div class='recipes__text-wrapper'>
                 <h2 class='recipes__title'>Recipes</h2>
@@ -123,14 +127,14 @@
             </div>
             <ul class='recipes__videos'>
                 <li class='recipes__card'>
-                    <iframe id=“ytplayer” type=“text/html” width=480 height=275 src=“https://www.youtube.com/embed/j6VlT_jUVPc” frameborder=“0” allowfullscreen></iframe> 
+                    <iframe id=“ytplayer_1” class="ytplayer" width=480 height=275 src=“https://www.youtube.com/embed/j6VlT_jUVPc”  allowfullscreen></iframe> 
                     <div class='recipes__card-text-wrapper'>
                         <p class='recipes__card-video-subtitle recipes__card-video-subtitle-left'>Aeropress recipe</p>
                         <p class='recipes__card-video-subtitle recipes__card-video-subtitle-right'>~5 min</p>
                     </div>
                 </li>
                 <li class='recipes__card'>
-                    <iframe id=“ytplayer” type=“text/html” width=480 height=275 src=“https://www.youtube.com/embed/st571DYYTR8” frameborder=“0” allowfullscreen></iframe> 
+                    <iframe id=“ytplayer_2” class="ytplayer" width=480 height=275 src=“https://www.youtube.com/embed/st571DYYTR8” allowfullscreen></iframe> 
                     <div class='recipes__card-text-wrapper'>
                         <p class='recipes__card-video-subtitle recipes__card-video-subtitle-left'>French Press recipe</p>
                         <p class='recipes__card-video-subtitle recips__card-video-subtitle-right'>~15 min</p>
@@ -167,9 +171,9 @@
                         <label for='date-time' class='form__label' >Date & time *</label>
                         <input 
                             type='datetime-local'
-                            id='datetime'
+                            id='date-time'
                             class='form__input' 
-                            name='datetime'
+                            name='date-time'
                             required
                         />
 
@@ -197,6 +201,7 @@
                         <label for='checkbox' class='form__label form__label-agree'>I agree with the terms of use</label>
                     </fieldset>
                 </form>
+            </div>
         </section>
         <section class='about'>
             <div class="about__circle"></div>

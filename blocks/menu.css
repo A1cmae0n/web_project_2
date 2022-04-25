@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+
 .menu {
     width: 100vw;
     background-color: #0a2750;
@@ -5,24 +12,44 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     row-gap: 100px;
     position: relative;
+    margin: unset;
+    padding: unset;
 }
 
 .menu__flex-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-top: 100px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     row-gap: 24px;
     max-width: 780px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
 }
 
 .menu__title {
+    margin: unset;
+    padding: unset;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -32,9 +59,18 @@
 }
 
 .menu__subtitle {
+    margin: unset;
+    padding: unset;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-family: 'Noto Serif', 'Times New Roman', serif;
     font-style: normal;
     font-weight: normal;
@@ -44,30 +80,58 @@
 }
 
 .menu__cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     row-gap: 100px;
     margin-bottom: 100px;
 }
 
 .menu__cards-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    column-gap: 100px;
+    -webkit-column-gap: 100px;
+       -moz-column-gap: 100px;
+            column-gap: 100px;
 }
 
 .menu__cards-last-of-type-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+}
+
+.menu__card-wrapper {
+    margin: unset;
+    padding: unset;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 .menu__card {
     /* width: fit-content; */
     max-width: 600px;
-
+    white-space: nowrap;
+    width: 1000px;
+    list-style-type: none;
 }
 
 .menu__card-header {
+    margin: unset;
+    padding: unset;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -78,6 +142,8 @@
 }
 
 .menu__card-paragraph {
+    margin: unset;
+    padding: unset;
     font-family: 'Noto Serif', 'Times New Roman', serif;
     font-style: normal;
     font-weight: normal;
@@ -85,7 +151,24 @@
     line-height: 20px;
     color: #FFFFFF;
     margin-bottom: 16px;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
 }
+
 .menu__card-paragraph:last-child {
     margin-bottom: 0;
 }
+
+.menu__card-underscore{
+    /* content: "\005F";
+    content: '_';
+    width: 100px; */
+    display: inline-block;
+    height: 18px;
+    border-bottom: 1px solid white;
+    color: white;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+} 

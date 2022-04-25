@@ -1,7 +1,13 @@
+@import url('../blocks/normalize.css');
+@import url('../blocks/header.css');
+@import url('../blocks/menu.css');
+@import url('../blocks/recipes.css');
+@import url('../blocks/reservation.css');
+@import url('../blocks/about.css');
+@import url('../blocks/footer.css');
+
 * {
     outline: 1px dotted red;
-    margin: unset;
-    padding: unset;
 }
 
 body {
@@ -17,10 +23,6 @@ body {
 }
 
 
-@import url('../blocks/normalize.css');
-
-@import url('../blocks/header.css');
-@import url('../blocks/menu.css');
 
 
 /* font-family: 'Inter', sans-serif; */

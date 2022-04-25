@@ -1,28 +1,36 @@
 @-webkit-keyframes pulsate {
-    0%, 100% {
+    0% {
         opacity: 0;
+        -webkit-transform: scale(1);
+                transform: scale(1);
     }
     50% {
         opacity: 0.6;
+        -webkit-transform: scale(1.2);
+                transform: scale(1.2);
     }
     100% {
         opacity: 1;
-        -webkit-transform: scale(1.3);
-                transform: scale(1.3);
+        -webkit-transform: scale(1.4);
+                transform: scale(1.4);
     }
-} 
+}
 
 @keyframes pulsate {
-    0%, 100% {
+    0% {
         opacity: 0;
+        -webkit-transform: scale(1);
+                transform: scale(1);
     }
     50% {
         opacity: 0.6;
+        -webkit-transform: scale(1.2);
+                transform: scale(1.2);
     }
     100% {
         opacity: 1;
-        -webkit-transform: scale(1.3);
-                transform: scale(1.3);
+        -webkit-transform: scale(1.4);
+                transform: scale(1.4);
     }
 } 
 
@@ -57,18 +65,9 @@
     width: 426px;
     border-radius: 50%;
     background-color: #2F80ED;
-    -webkit-animation-name: pulsate;
-            animation-name: pulsate;
-    -webkit-animation-duration: 1.3s;
-            animation-duration: 1.3s;
-    -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-    -webkit-animation-direction: normal;
-            animation-direction: normal;
+    animation: pulsate 1.3s ease-in-out infinite;
+    -webkit-keyframes: pulsate 1.3s ease-in-out infinite;
+    -webkit-animation: pulsate 1.3s ease-in-out infinite;
 }
 
 .about__title {

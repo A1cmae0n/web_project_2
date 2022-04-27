@@ -35,7 +35,6 @@
 } 
 
 .about {
-    width: 100vw;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;

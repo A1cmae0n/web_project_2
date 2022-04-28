@@ -9,28 +9,37 @@
     <title>Practicum Coffee Shop</title>
     <link rel='stylesheet' href='./pages/index.css'>
     <link rel='icon' href='./favicon_coffee_bean.ico' type='image/x-icon'>
-    <!-- Inter Regular 400 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Inter Regular 400 -->
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <!-- Inter Medium 500 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet"> 
     <!-- Inter Bold 700 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
     <!-- Noto Serif Regular 400 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
 </head>    
 <body>
     <div class='page'>
         <header class='header'>
-            <div class='header__left-side-wrapper'>
+            <nav class='nav'>
                 <img class='header__logo' src='./images/logo_coffee_shop.svg' alt='Practicum Coffee Shop Logo'>
+                <ul class='nav__links'>
+                    <li>
+                        <a class='nav__link' href='#menu'>Menu</a>
+                    </li>
+                    <li>
+                        <a class='nav__link' href='#recipes'>Recipes</a>
+                    </li>
+                    <li>
+                        <a class='nav__link' href='#reservation'>Book a table</a>
+                    </li>
+                    <li>
+                        <a class='nav__link' href='#'>Contacts</a>
+                    </li>
+                </ul>
+            </nav>
                 <div class='header__text-column'>
                     <div class='header__description-column'>
                         <h1 class='header__title'><span class='header__span-accent'>Specialty Coffee</span> in the Practicum Library</h1>
@@ -42,28 +51,9 @@
                         <p class='header__paragraph'>Saturday – Sunday (11:00 – 18:00)
                         </p>
                     </div>
-                </div>
             </div>
-            <div class='header__right-side-wrapper'>
-                <nav class='nav'>
-                    <ul class='nav__links'>
-                        <li>
-                            <a class='nav__link' href='#menu'>Menu</a>
-                        </li>
-                        <li>
-                            <a class='nav__link' href='#recipes'>Recipes</a>
-                        </li>
-                        <li>
-                            <a class='nav__link' href='#reservation'>Book a table</a>
-                        </li>
-                        <li>
-                            <a class='nav__link' href='#'>Contacts</a>
-                        </li>
-                    </ul>
-                </nav>
                 <p class='header__paragraph header__paragraph-address'>200 Success Avenue, The Town of Practicum</p>
                 <img class='header__image' src='./images/inside_coffee_shop.png' alt='inside coffee shop'>
-            </div>
         </header>
         <section class='menu'>
             <h2 class='menu__title'>Menu</h2>

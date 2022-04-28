@@ -27,5 +27,14 @@ body {
     font-family: 'Inter', Arial, sans-serif;
     font-size: 16px;
     line-height: 20px;
-    overflow-x: hidden;
+    position: relative;
+    height: 100vh;
+    min-height: 720px;
+    max-height: 800px;
+}
+
+@media screen and (min-width: 1600px) {
+    .page {
+        margin: 0 auto;
+    }
 }

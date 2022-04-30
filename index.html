@@ -62,7 +62,7 @@
                 <span class='menu__subtitle-break'>biodegradable cups. All teas from our collection are $2/cup.</span>
             </p>
             <div class='menu__cards'>
-                <div class='menu__card-wrapper'>
+                <div class='menu__card-wrapper menu__filter'>
                     <h3 class='menu__card-header'>Filter</h3>  
                     <ul class="menu__list">
                         <li class='menu__card'>
@@ -76,9 +76,9 @@
                 </div>
                 <div class='menu__card-wrapper'>
                     <h3 class='menu__card-header'>Espresso</h3>
-                    <ul class="menu__list">
+                    <ul class="menu__list menu__espresso">
                         <li class='menu__card'>
-                            <p class='menu__card-paragraph'>Macchiato <span class='menu__card-underscore'></span>$2.25</p>
+                        <p class='menu__card-paragraph'>Macchiato <span class='menu__card-underscore'></span>$2.25</p>
                             <p class='menu__card-paragraph'>Cortado <span class='menu__card-underscore'></span>$2.5</p>
                             <p class='menu__card-paragraph'>Mocha <span class='menu__card-underscore'></span>$3</p>
                             <p class='menu__card-paragraph'>Sunrise in the Bay Area (decaf) <span class='menu__card-underscore'></span>$10</p>
@@ -125,7 +125,7 @@
         <section class='reservation'>
             <form class=“reservation__form”>
                 <h2 class='reservation__title'>Book a table</h2>
-                <fieldset class=“reservation__form-fieldset”>
+                <fieldset id="fieldset" class=“reservation__form-fieldset”>
                     <label for='name' class='reservation__form-label' >Name *</label>
                     <input
                         type='text'
@@ -166,10 +166,10 @@
                         required
                     />
                 </fieldset>
-                <fieldset class='reservation__form-fieldset'>
+                <fieldset  id="fieldset" class='reservation__form-fieldset'>
                     <button type='submit' class='reservation__button'>Book a table</button>
                     </fieldset>
-                <fieldset class='reservation__form-fieldset'>
+                <fieldset id="fieldset" class='reservation__form-fieldset'>
                     <input
                     type='checkbox'
                     class='reservation__form-input'

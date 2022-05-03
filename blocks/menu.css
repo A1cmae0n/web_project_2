@@ -9,6 +9,10 @@
     align-items: center;
 }
 
+.menu__title, .menu__subtitle {
+    max-width: 780px;
+}
+
 .menu__title {
     margin: unset;
     padding: unset;
@@ -26,16 +30,7 @@
     margin: unset;
     padding: unset;
     margin-bottom: 100px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    text-align: center;
     font-family: 'Noto Serif', 'Times New Roman', serif;
     font-style: normal;
     font-weight: normal;
@@ -44,17 +39,12 @@
     color: #FFFFFF;
 }
 
-.menu__cards {
-    margin-bottom: 100px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 100px;
-    column-gap: 100px;
-    justify-content: center;
+.menu__list {
+    padding: unset;
+    padding-top: 0;
 }
 
-.menu__list {
+.card__list {
     padding: unset;
     padding-top: 0;
 }
@@ -79,9 +69,39 @@
     padding: 0 300px;
 }
 
+.menu__cards {
+    margin-bottom: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 100px;
+    column-gap: 100px;
+    justify-content: center;
+}
+
 .menu__card {
+    width: 45%;
+    max-width: 600px;
     white-space: nowrap;
     list-style-type: none;
+}
+
+.card__list-item {
+    white-space: nowrap;
+    list-style-type: none;
+}
+
+
+.card__title {
+    margin: unset;
+    padding: unset;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
 }
 
 .menu__card-header {
@@ -111,11 +131,36 @@
     display:flex;
 }
 
+.card__list-item > p {
+    margin: unset;
+    padding: unset;
+    font-family: 'Noto Serif', 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+}
+
 .menu__card-paragraph:last-child {
     margin-bottom: 0;
 }
 
 .menu__card-underscore{
+    display: inline-block;
+    height: 18px;
+    border-bottom: 1px solid white;
+    color: white;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+} 
+
+.card__list-divider{
     display: inline-block;
     height: 18px;
     border-bottom: 1px solid white;

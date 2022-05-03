@@ -2,10 +2,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    /* -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; */
+    justify-content: space-between;
     background-color: #FFFFFF;
     background-image: url('../images/background_header.svg');
     background-repeat: no-repeat;
@@ -14,6 +11,19 @@
     min-height: 720px;
     max-height: 800px;
     height: 100vh;
+    z-index: 1;
+}
+
+.header__left {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .nav {
@@ -22,7 +32,7 @@
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between;
+            justify-content: flex-end;
     -webkit-box-align: normal;
         -ms-flex-align: normal;
             align-items: normal;
@@ -53,6 +63,7 @@
 }   
 
 .nav__link {
+    color: #000;
     text-decoration: none;
     -webkit-transition: color 0.35s linear 0.1s;
     -o-transition: color 0.35s linear 0.1s;
@@ -72,25 +83,24 @@
     width: 125px;
     position: relative;
     margin-left: 80px;
+    margin-top: 30px;
 }
 
 .header__text-column {
-    height: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header__description-column {
-    /* display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; */
+    z-index: 2;
     row-gap: 20px;
 }
 
 .header__title {
+    z-index: 2;
+    margin: unset;
     margin-top: 80px;
+    margin-bottom: 28px;
     max-width: 729px;
     font-family: 'Inter', Arial, sans-serif;
     font-weight: 500;
@@ -115,17 +125,15 @@
     color: #2F80ED;
 }
 
-.header__description-br {
-    display: block;
+.header__paragraph-column {
+    margin: unset;
+    padding: unset;
+    margin-top: auto;
+    margin-bottom: 40px;
 }
 
 .header__title, .header__description, .header__paragraph-column {
     margin-left: 80px;
-}
-
-.header__paragraph-column {
-    position: absolute;
-    bottom: 40px;
 }
 
 .header__paragraph {
@@ -135,18 +143,19 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px; 
-}
-
-.header__paragraph-address {
     margin-left: auto;
     margin-right: 80px;
+    list-style-type: none;
+}
+
+.header__right > .header__paragraph {
     margin-bottom: 40px;
 }
 
 .header__image {
+    display: relative;
     width: 646px;
     height: 568px;
-    position: absolute;
-    top: 124px;
-    right: 5px;
+    margin-right: 5px;
+    z-index: -1;
 }

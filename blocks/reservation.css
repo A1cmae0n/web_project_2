@@ -46,6 +46,8 @@ fieldset {
 }
 
 .reservation__form-input {
+    margin: unset;
+    padding: unset;
     margin-top: 8px;
     margin-bottom: 32px;
     border-radius: 4px;

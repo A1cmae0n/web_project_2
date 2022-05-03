@@ -44,7 +44,7 @@
     padding-top: 0;
 }
 
-.card__list {
+.menu__card-list{
     padding: unset;
     padding-top: 0;
 }
@@ -86,13 +86,13 @@
     list-style-type: none;
 }
 
-.card__list-item {
+.menu__card-list-item {
     white-space: nowrap;
     list-style-type: none;
 }
 
 
-.card__title {
+.menu__card-title {
     margin: unset;
     padding: unset;
     font-family: 'Inter', Arial, sans-serif;
@@ -131,7 +131,7 @@
     display:flex;
 }
 
-.card__list-item > p {
+.menu__card-list-item > p {
     margin: unset;
     padding: unset;
     font-family: 'Noto Serif', 'Times New Roman', serif;
@@ -150,17 +150,7 @@
     margin-bottom: 0;
 }
 
-.menu__card-underscore{
-    display: inline-block;
-    height: 18px;
-    border-bottom: 1px solid white;
-    color: white;
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
-} 
-
-.card__list-divider{
+.menu__card-list-divider{
     display: inline-block;
     height: 18px;
     border-bottom: 1px solid white;

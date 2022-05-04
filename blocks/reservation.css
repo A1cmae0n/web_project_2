@@ -170,7 +170,7 @@ input[type='checkbox'] {
     font-size: 16px;
     line-height: 20px;
     opacity: 100%;
-    transition-property: opacity; 
+    transition-property: opacity;
     transition-duration: 1s;
     transition-timing-function: linear;
 }

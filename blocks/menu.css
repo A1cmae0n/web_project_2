@@ -44,9 +44,11 @@
     padding-top: 0;
 }
 
-.menu__card-list{
+.card__list{
     padding: unset;
     padding-top: 0;
+    white-space: nowrap;
+    list-style-type: none;
 }
 
 .menu__card-wrapper {
@@ -79,20 +81,20 @@
     justify-content: center;
 }
 
-.menu__card {
+.card {
     width: 45%;
     max-width: 600px;
     white-space: nowrap;
     list-style-type: none;
 }
-
+/* 
 .menu__card-list-item {
     white-space: nowrap;
     list-style-type: none;
-}
+} */
 
 
-.menu__card-title {
+.card__title {
     margin: unset;
     padding: unset;
     font-family: 'Inter', Arial, sans-serif;
@@ -131,7 +133,7 @@
     display:flex;
 }
 
-.menu__card-list-item > p {
+.card__list-item {
     margin: unset;
     padding: unset;
     font-family: 'Noto Serif', 'Times New Roman', serif;

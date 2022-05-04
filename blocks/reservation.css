@@ -29,7 +29,7 @@
     line-height: 52px;
 }
 
-fieldset {
+.reservation__form-fieldset {
     margin: unset;
     padding: unset;
     border: 0 none;
@@ -108,7 +108,7 @@ fieldset {
     color: #838383;
 }
 
-#date-time {
+.date-time {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

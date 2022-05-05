@@ -74,9 +74,15 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
+    -webkit-transition-property: color;
+    -o-transition-property: color;
     transition-property: color;
-    transition-duration: 0.25s;
-    transition-timing-function: linear;
+    -webkit-transition-duration: 0.25s;
+         -o-transition-duration: 0.25s;
+            transition-duration: 0.25s;
+    -webkit-transition-timing-function: linear;
+         -o-transition-timing-function: linear;
+            transition-timing-function: linear;
 }
 
 .footer__social-link:hover {

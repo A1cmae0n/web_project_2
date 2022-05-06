@@ -25,9 +25,7 @@
     margin-bottom: 32px;
 }
 
-.card__list-item {
-    margin: unset;
-    padding: unset;
+.card__list_item {
     font-family: 'Noto Serif', 'Times New Roman', serif;
     font-style: normal;
     font-weight: normal;
@@ -40,7 +38,7 @@
     display:flex;
 }
 
-.card__list-divider{
+.card__list_divider{
     display: inline-block;
     height: 18px;
     border-bottom: 1px solid white;

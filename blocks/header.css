@@ -105,9 +105,14 @@
     list-style-type: none;
 }
 
+.header__paragraph-address {
+    margin-bottom: 40px;
+}
+
 .header__image {
     width: 646px;
     height: 568px;
     margin-right: 5px;
     z-index: -1;
+    border-radius: 50%;
 }

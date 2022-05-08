@@ -30,7 +30,7 @@
     border: 0 none;
 }
 
-.form__input_type_date_time {
+.form__input_type_datetime {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -46,7 +46,7 @@
     line-height: 30px; 
 }
 
-.form__input_type_checkbox {
+.form__fieldset_type_checkbox {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

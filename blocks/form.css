@@ -64,7 +64,7 @@
     line-height: 30px;
 }
 
-.form__checkbox {
+.form__input_type_checkbox {
     margin: unset;
     padding: unset;
     width: 20px;
